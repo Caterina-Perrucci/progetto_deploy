@@ -1,0 +1,27 @@
+:root{
+    --main: rgb(230, 230, 65);
+    --secondary: black;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-custom{
+    background-color: var(--main);
+}
+
+.text-custom{
+    color: var(--main);
+}
+
+.btn-custom{
+    background-color: var(--secondary);
+    color: var(--main);
+}
+
+.btn-custom:hover{
+    background-color: var(--main);
+    color: var(--secondary);
+    box-shadow: 5px 5px 2px 1px var(--secondary);
+}
